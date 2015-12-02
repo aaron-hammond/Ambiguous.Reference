@@ -6,7 +6,7 @@
     {
         public void Given()
         {
-            var controller = new ValuesController();
+            var controller = new Ambiguous.Reference.Controllers.ValuesController();
         }
     }
 }
