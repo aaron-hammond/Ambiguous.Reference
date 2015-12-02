@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 
-namespace Ambiguous.Reference.Controllers
+namespace Ambiguous.Reference.Api.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

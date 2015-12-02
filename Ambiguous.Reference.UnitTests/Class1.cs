@@ -1,12 +1,12 @@
-﻿namespace Ambiguous.Reference.Test
+﻿namespace Ambiguous.Reference.UnitTests
 {
     // This project can output the Class library as a NuGet Package.
     // To enable this option, right-click on the project and select the Properties menu item. In the Build tab select "Produce outputs on build".
-    public class UnitTest
+    public class Class1
     {
-        public void Given()
+        public Class1()
         {
-            var controller = new Ambiguous.Reference.Controllers.ValuesController();
+            var x = new ValuesController();
         }
     }
 }
